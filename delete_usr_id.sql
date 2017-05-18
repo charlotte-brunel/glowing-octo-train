@@ -3,10 +3,31 @@ SET @identifiant = 25 ;
 
 -- ############################## rien à modifier############################
 
-DELETE FROM admin_conversation
-WHERE users_id = @identifiant ;
+DELETE FROM mailbox
+WHERE from_users_id = @identifiant;
+
+DELETE FROM messages
+WHERE from_users_id = @identifiant ;
 
 DELETE FROM cart
+WHERE users_id = @identifiant ;
+
+DELETE FROM payments
+WHERE users_id = @identifiant ;
+
+DELETE FROM mangopay_user_info
+WHERE users_id = @identifiant ;
+
+DELETE FROM orders
+WHERE users_id = @identifiant ;
+
+DELETE FROM order_items
+WHERE users_id = @identifiant ;
+
+DELETE FROM workshop
+WHERE users_id = @identifiant ;
+
+DELETE FROM admin_conversation
 WHERE users_id = @identifiant ;
 
 DELETE FROM professional_reviews
@@ -18,23 +39,8 @@ WHERE users_id = @identifiant ;
 DELETE FROM special_offers_usage
 WHERE users_id = @identifiant ;
 
-DELETE FROM mangopay_user_info
-WHERE users_id = @identifiant ;
-
 DELETE FROM mangopay_user_bank_account
 WHERE user_id = @identifiant ;  # attention pas de S!!!
-
-DELETE FROM orders
-WHERE users_id = @identifiant ;
-
-DELETE FROM order_items
-WHERE users_id = @identifiant ;
-
-DELETE FROM payments
-WHERE users_id = @identifiant ;
-
-DELETE FROM workshop
-WHERE users_id = @identifiant ;
 
 DELETE FROM user_addresses
 WHERE users_id = @identifiant ;

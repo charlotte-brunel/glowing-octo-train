@@ -9,9 +9,6 @@ WHERE workshop_id = @identifiant ;
 DELETE FROM cart
 WHERE workshop_id = @identifiant ;
 
-DELETE FROM professional_reviews
-WHERE workshop_id = @identifiant ;
-
 DELETE FROM mailbox
 WHERE workshop_id = @identifiant ;
 
