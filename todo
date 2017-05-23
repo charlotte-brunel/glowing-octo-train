@@ -9,13 +9,12 @@
 ########################IMPORTANT#############################
 
 
-
 - [ ] changement du mode de sélection des horaires > menus déroulants de 8h à 00h
 		-quand le time slot est validé je suis conscient de mon choix donc la bulle qui apparait à la validation est deja selectionnée
 - [x] fixer la barre de navigation secondaire des professionels
 - [ ]suppression des champs phone et code de reduction dans la page register.php
 - [ ]
-- [ ] bouton télécharger les images pour worshop faire idem pour le profil
+- [x] bouton télécharger les images pour worshop faire idem pour le profil
 - [ ] quand les picto caracteristiques sont cochés la zone matériel doit disparaitre
 - [ ] remettre en ordre lieu et materiel par rapport à la barre
 - [ ] menu mobile dashboard pro
