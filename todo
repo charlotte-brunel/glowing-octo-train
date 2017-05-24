@@ -1,9 +1,3 @@
--
-
-
-- nombre de visiteur
-- taux de retour
-- temps passé
 
 ######################## IMPORTANT ###################################################################################################
 
@@ -12,14 +6,15 @@
 - [ ] problème de renseignement du RIB > fonctionne en serveur test pas en prod, code et bdd IDENTIQUE!!! >> erreur annonce user ne correspond pas
 - [ ] changement du mode de sélection des horaires > menus déroulants de 8h à 00h
 		-quand le time slot est validé je suis conscient de mon choix donc la bulle qui apparait à la validation est deja selectionnée
+		ET changement de format des heures 10-12h -> 10:00-12:00  >>variable worshop_time voir workshop.php, worshop_model.php
 - [ ]suppression des champs phone et code de reduction dans la page register.php
 
 - [ ] quand les picto caracteristiques sont cochés la zone matériel doit disparaitre
 - [ ] remettre en ordre lieu et materiel par rapport à la barre
 
 - [ ]
-- [ ]
-- [ ]
+- [ ] refaire la liste des ateliers bouton à la place du nombre de participants, remplacer le bouton de liste des participant par le bouton d'ajout de participant
+- [ ] le bouton pour voir la liste de participant est en javascript on ne peut pas l'ouvrir dans un nouvel onglet
 - [ ]
 - [ ]
 - [ ]
@@ -38,6 +33,11 @@
 		dans le champ adresse des ateliers > faire trois champs au lieu d'un seul, comme ça on peut reccuperer les codes pôpstaux depuis la BDD
 - [ ] proposer une fonctionalité pour choisir quel nom afficher (animateur ou boutique)
 - [ ] possibilité de dupliquer un atelier
+
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 - [ ]
 
 ########################### FAIT #####################################################################################################
@@ -62,3 +62,11 @@
 - [x] bug d'image de profil non clicable > lier au fait que le quatrième onglet ne soit pas un step4 mais une redirection vers une autre page, c'est aussi pourquoi la page se recharge
 - [x] suppression de la barre verte dans la liste d'atelier
 - [x] corriger la déformation des images dans les listes d'atelier accueil et pro
+
+
+############################# NOTES ##################################################################################################
+
+KPI
+- nombre de visiteur
+- taux de retour
+- temps passé
