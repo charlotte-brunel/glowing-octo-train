@@ -1,42 +1,46 @@
-- les images n'apparaissent pas quand elles sont importées
+-
 
-- script sql pour effacer user et workshop
 
 - nombre de visiteur
 - taux de retour
 - temps passé
 
-########################IMPORTANT#############################
+######################## IMPORTANT ###################################################################################################
 
+- [ ] modèle de fonctionnement du package
 
+- [ ] problème de renseignement du RIB > fonctionne en serveur test pas en prod, code et bdd IDENTIQUE!!! >> erreur annonce user ne correspond pas
 - [ ] changement du mode de sélection des horaires > menus déroulants de 8h à 00h
 		-quand le time slot est validé je suis conscient de mon choix donc la bulle qui apparait à la validation est deja selectionnée
-- [x] fixer la barre de navigation secondaire des professionels
 - [ ]suppression des champs phone et code de reduction dans la page register.php
-- [ ]
-- [x] bouton télécharger les images pour worshop faire idem pour le profil
+
 - [ ] quand les picto caracteristiques sont cochés la zone matériel doit disparaitre
 - [ ] remettre en ordre lieu et materiel par rapport à la barre
-- [ ] menu mobile dashboard pro
-- [ ] problème d'affichage de la map
+
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 - [ ]
 
-#############################AUTRE########################################################
+############################# AUTRE ##################################################################################################
 
 - [ ]! bug affichage bouton pour effacer les images dans worshop_edit <ul class="portion-ul"> ligne 1575
-- [ ] bug d'image de profil non clicable > lier au fait que le quatrième onglet ne soit pas un step4 mais une redirection vers une autre page, c'est aussi pourquoi la page se recharge
+- [ ]
 
 - [ ] quand image pas validée (ie recadrer), lors de la validation de l'atelier indique problème au niveau des plages horaires
 - [ ] rendre les liens clicables sur la page organisateur/ mettre un champ site web
 
-- [ ]! Ne plus rendre clicable les images d'atelier et de profil mais rajouter un bouton à coté > problème de priorité avec le plugin pinterest
+- [ ] les images n'apparaissent pas quand elles sont importées
 
 - [ ]système de tris par ville > code postaux
 		dans le champ adresse des ateliers > faire trois champs au lieu d'un seul, comme ça on peut reccuperer les codes pôpstaux depuis la BDD
 - [ ] proposer une fonctionalité pour choisir quel nom afficher (animateur ou boutique)
 - [ ] possibilité de dupliquer un atelier
+- [ ]
 
-###########################FAIT#########################################
+########################### FAIT #####################################################################################################
 
 - [x] Supprimer bloc texte obligatoire dans « Description » + MAJ du titre onglet « MES FONDS & MON RIB »
 - [x] Editer la page «  » pour supprimer la limite de taille d’upload d’images (plancher) >> pas d'affichage de l'image
@@ -44,11 +48,17 @@
 		ligne 1064  <div class="image-editor">
 - [x] Supprimer le bouton pour ajouter un fond sur la gauche de l’atelier
 - [x] Les mois apparaissent en anglais au lieu du français
-
 - [x]!!! ajout des picto "enfant et adulte", "adulte"
 		>affichage, système de tri dans la bdd,
 		ligne 1419 workshop_add.php
 - [x] recadrer le css du bouton de crop-it de l'image du workshop
 - [x] verifier les pictos dans les ateliers, listes d'ateliers
-- [ ]
-- [ ]
+- [x] fixer la barre de navigation secondaire des professionels
+- [x] menu mobile dashboard pro
+- [x] problème d'affichage de la map
+- [x] bouton télécharger les images pour worshop faire idem pour le profil
+- [x] recadrer le picto loupe dans la barre de recherche liste atelier pro
+- [x]! Ne plus rendre clicable les images d'atelier et de profil mais rajouter un bouton à coté > problème de priorité avec le plugin pinterest
+- [x] bug d'image de profil non clicable > lier au fait que le quatrième onglet ne soit pas un step4 mais une redirection vers une autre page, c'est aussi pourquoi la page se recharge
+- [x] suppression de la barre verte dans la liste d'atelier
+- [x] corriger la déformation des images dans les listes d'atelier accueil et pro

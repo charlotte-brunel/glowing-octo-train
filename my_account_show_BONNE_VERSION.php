@@ -311,7 +311,7 @@
                 <h3 class="details_label txtalgncntr">Mon RIB</h3>
                 <?php if (isset($bank_account_data) && !empty($bank_account_data)): ?>
                     <li>
-                        <p class="details_title_lv2" ><?= $bank_account_data->Tag ?></p>
+                        <p class="details_title_lv2"><?= $bank_account_data->Tag ?></p>
                         <ul class="bank_account_details">
                             <li class="details_item"><p>Titulaire : <?= $bank_account_data->OwnerName ?></p></li>
                             <li class="details_item"><p>Adresse : <?= $bank_account_data->OwnerAddress->AddressLine1.', '.$bank_account_data->OwnerAddress->AddressLine2.', '.$bank_account_data->OwnerAddress->PostalCode.', '.$bank_account_data->OwnerAddress->City ?></p></li>
