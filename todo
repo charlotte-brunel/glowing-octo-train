@@ -6,14 +6,15 @@
 - [?p] changement du mode de sélection des horaires > menus déroulants de 8h à 00h
 		-quand le time slot est validé je suis conscient de mon choix donc la bulle qui apparait à la validation est deja selectionnée
 		ET changement de format des heures 10-12h -> 10:00-12:00  >> variable worshop_time voir workshop.php, worshop_model.php
-- [?p]suppression des champs phone et code de reduction dans la page register.php
+
+- [X]suppression des champs phone et code de reduction dans la page register.php
 
 - [ ] quand les picto caracteristiques sont cochés la zone matériel doit disparaitre
 - [ ] remettre en ordre lieu et materiel par rapport à la barre
 
 - [ ] refaire la liste des ateliers bouton à la place du nombre de participants, remplacer le bouton de liste des participant par le bouton d'ajout de participant
 - [ ] le bouton pour voir la liste de participant est en javascript on ne peut pas l'ouvrir dans un nouvel onglet
-- [ ]  rendre les titres d'atelier clicable pour acceder à workshop_edit hoover spéciafiant édition d'atelier
+- [ ]  rendre les titres d'atelier clicable pour acceder à workshop_edit hoover spécifiant édition d'atelier
 - [ ] rajouter un hoover sur les images d'atelier dans la liste pour voir la fiche du workshop
 - [ ] chargement de l'atelier quand on clique sur un atelier dans une liste blocage de cet atelier à la place du profil pro
 
@@ -23,7 +24,7 @@
  			>>>>>>>>>>>>>>>>  faire un schema uml du fonctionnement d'envoi de message groupé
 - [ ] pourquoi les user ajoutés en off ne sont pas inclus dans la lite de participants officiels
 
-- [ ]
+- [ ] checker les résolution d'écran pour le bouton de home-index
 - [?P] nom de domaine https://www.yearn.fr  connection sécurisée , sur http://yearn.fr redirige sur le premier
 				- wwww site pas accessible
 				-s  version de yearn sans accès à la base de donnée
