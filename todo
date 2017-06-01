@@ -10,6 +10,7 @@
 - [X]suppression des champs phone et code de reduction dans la page register.php
 
 - [ ] quand les picto caracteristiques sont cochés la zone matériel doit disparaitre
+- [ ] admin workshop_edit > mettre à niveau
 - [ ] remettre en ordre lieu et materiel par rapport à la barre
 
 - [ ] refaire la liste des ateliers bouton à la place du nombre de participants, remplacer le bouton de liste des participant par le bouton d'ajout de participant
