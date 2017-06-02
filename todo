@@ -7,7 +7,7 @@
 		-quand le time slot est validé je suis conscient de mon choix donc la bulle qui apparait à la validation est deja selectionnée
 		ET changement de format des heures 10-12h -> 10:00-12:00  >> variable worshop_time voir workshop.php, worshop_model.php
 
-- [X]suppression des champs phone et code de reduction dans la page register.php
+- [X] suppression des champs phone et code de reduction dans la page register.php
 
 - [ ] quand les picto caracteristiques sont cochés la zone matériel doit disparaitre
 - [ ] admin workshop_edit > mettre à niveau
@@ -25,7 +25,7 @@
  			>>>>>>>>>>>>>>>>  faire un schema uml du fonctionnement d'envoi de message groupé
 - [ ] pourquoi les user ajoutés en off ne sont pas inclus dans la lite de participants officiels
 
-- [ ] checker les résolution d'écran pour le bouton de home-index
+
 - [?P] nom de domaine https://www.yearn.fr  connection sécurisée , sur http://yearn.fr redirige sur le premier
 				- wwww site pas accessible
 				-s  version de yearn sans accès à la base de donnée
@@ -40,13 +40,13 @@
 
 - [P] les images n'apparaissent pas quand elles sont importées  >>>>>
 - [ ] modèle de fonctionnement du package
-- [ ]système de tris par ville > code postaux
+- [ ] système de tris par ville > code postaux
 		dans le champ adresse des ateliers > faire trois champs au lieu d'un seul, comme ça on peut reccuperer les codes pôpstaux depuis la BDD
 - [ ] proposer une fonctionalité pour choisir quel nom afficher (animateur ou boutique)
 - [ ] possibilité de dupliquer un atelier
 
-- [ ]
-- [ ]
+- [ ]	problème de déformation de l'image de profil à tout moment
+- [ ] rajouter le bouton valider
 - [ ]
 - [ ]
 - [ ]

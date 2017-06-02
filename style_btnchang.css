@@ -253,23 +253,28 @@ section.banner-section img.banner {
 }
 .sticky-header .right-side-header {
 	float: right;
+  width: auto;
 }
 .sticky-header .right-side-header a, a.shop {
 	white-space: nowrap;
 	background: #35b7af;
 	border-radius: 200px;
-	color: rgba(0, 0, 0, 0);
 	float: right;
 	font-size: 12px;
 	height: 46px;
 	letter-spacing: 1.5px;
 	margin-bottom: 10px;
 	overflow: hidden;
-	padding-top: 12px;
+	padding-top: 14px;
 	text-align: center;
 	text-transform: uppercase;
-	width: 46px;
+	width: 280px;
 	word-spacing: 2px;
+
+  font-family: 'montserratlight';
+  color: white;
+  display: block;
+  overflow: hidden;
 }
 a.shop.marginbtm{margin-bottom:0px;}
 .fr.shop {
@@ -290,13 +295,17 @@ a.shop.marginbtm.mr-zero{ margin-right: 0px; }
 .sticky-header .right-side-header a:hover > img {
 	left: 5px
 } */
-.sticky-header .right-side-header .logoutbtn img {
+.sticky-header .right-side-header a img {
 	left: 19px;
-	padding-right: 16px;
+	padding-bottom: 16px !important;
 	position: relative;
 	text-align: center;
 	top: 3px;
+  float: left;
+
+
 }
+
 .sticky-header .right-side-header a img.logoutbtn {	left: 14px;	top: 0px;}
 .sticky-header-fields {
 	float: left;
@@ -6530,4 +6539,3 @@ z-index: 2;
 	height: 250px;
 }
 }
-.flex-prev, .flex-next {  font-size: 0; }
