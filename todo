@@ -19,7 +19,7 @@
 - [ ] rajouter un hoover sur les images d'atelier dans la liste pour voir la fiche du workshop
 - [ ] chargement de l'atelier quand on clique sur un atelier dans une liste blocage de cet atelier à la place du profil pro
 
-- [ ] redirection vers la dashboard messagerie attendee quand mail de réponse d'un pro
+- [ ] redirection vers le dashboard messagerie attendee quand mail de réponse d'un pro
 
 - [ ] problème de réccurence qui impacte sur la modification du prix d'un atelier (bug d'édition du prix des ateliers) et sur l'envoi de message groupé en plus de ça les users ne sont pas notifiés
  			>>>>>>>>>>>>>>>>  faire un schema uml du fonctionnement d'envoi de message groupé
