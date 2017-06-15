@@ -1,19 +1,14 @@
 
 ######################## IMPORTANT ###################################################################################################
 
-- [?p] problème de renseignement du RIB > fonctionne en serveur test pas en prod, code et bdd IDENTIQUE!!! >> erreur annonce user ne correspond pas
-
-- [?p] changement du mode de sélection des horaires > menus déroulants de 8h à 00h
-		-quand le time slot est validé je suis conscient de mon choix donc la bulle qui apparait à la validation est deja selectionnée
-		ET changement de format des heures 10-12h -> 10:00-12:00  >> variable worshop_time voir workshop.php, worshop_model.php
-
 - [X] suppression des champs phone et code de reduction dans la page register.php
 
-- [ ] quand les picto caracteristiques sont cochés la zone matériel doit disparaitre
-- [ ] admin workshop_edit > mettre à niveau
-- [ ] remettre en ordre lieu et materiel par rapport à la barre
 
-- [ ] refaire la liste des ateliers bouton à la place du nombre de participants, remplacer le bouton de liste des participant par le bouton d'ajout de participant
+- [ ] admin workshop_edit > mettre à niveau
+
+- [c] remettre en ordre lieu et materiel par rapport à la barre
+- [c] quand les picto caracteristiques sont cochés la zone matériel doit disparaitre
+
 - [ ] le bouton pour voir la liste de participant est en javascript on ne peut pas l'ouvrir dans un nouvel onglet
 - [ ]  rendre les titres d'atelier clicable pour acceder à workshop_edit hoover spécifiant édition d'atelier
 - [ ] rajouter un hoover sur les images d'atelier dans la liste pour voir la fiche du workshop
@@ -26,9 +21,13 @@
 - [ ] pourquoi les user ajoutés en off ne sont pas inclus dans la lite de participants officiels
 
 
-- [?P] nom de domaine https://www.yearn.fr  connection sécurisée , sur http://yearn.fr redirige sur le premier
+- [P] nom de domaine https://www.yearn.fr  connection sécurisée , sur http://yearn.fr redirige sur le premier
 				- wwww site pas accessible
 				-s  version de yearn sans accès à la base de donnée
+- [P] changement du mode de sélection des horaires > menus déroulants de 8h à 00h
+		-quand le time slot est validé je suis conscient de mon choix donc la bulle qui apparait à la validation est deja selectionnée
+		ET changement de format des heures 10-12h -> 10:00-12:00  >> variable worshop_time voir workshop.php, worshop_model.php
+
 
 ############################# AUTRE ##################################################################################################
 
@@ -38,7 +37,7 @@
 - [ ] quand image pas validée (ie recadrer), lors de la validation de l'atelier indique problème au niveau des plages horaires
 - [ ] rendre les liens clicables sur la page organisateur/ mettre un champ site web
 
-- [P] les images n'apparaissent pas quand elles sont importées  >>>>>
+
 - [ ] modèle de fonctionnement du package
 - [ ] système de tris par ville > code postaux
 		dans le champ adresse des ateliers > faire trois champs au lieu d'un seul, comme ça on peut reccuperer les codes pôpstaux depuis la BDD
@@ -73,7 +72,9 @@
 - [x] bug d'image de profil non clicable > lier au fait que le quatrième onglet ne soit pas un step4 mais une redirection vers une autre page, c'est aussi pourquoi la page se recharge
 - [x] suppression de la barre verte dans la liste d'atelier
 - [x] corriger la déformation des images dans les listes d'atelier accueil et pro
-
+- [X] problème de renseignement du RIB > fonctionne en serveur test pas en prod, code et bdd IDENTIQUE!!! >> erreur annonce user ne correspond pas
+- [X] refaire la liste des ateliers bouton à la place du nombre de participants, remplacer le bouton de liste des participant par le bouton d'ajout de participant
+- [P] les images n'apparaissent pas quand elles sont importées  >>>>>
 
 ############################# NOTES #######################################################################################
 
