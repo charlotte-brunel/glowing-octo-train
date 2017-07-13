@@ -1,8 +1,7 @@
 
-######################## IMPORTANT ###################################################################################################
+######################## IMPORTANT ######################################################################################
 
 - [X] suppression des champs phone et code de reduction dans la page register.php
-
 
 - [ ] admin workshop_edit > mettre à niveau
 
@@ -28,8 +27,13 @@
 		-quand le time slot est validé je suis conscient de mon choix donc la bulle qui apparait à la validation est deja selectionnée
 		ET changement de format des heures 10-12h -> 10:00-12:00  >> variable worshop_time voir workshop.php, worshop_model.php
 
+- [ ] suppression de l'atelier même si réservation
+- [x] suppression d'un atelier en stand by
+- [ ] rajouter une date/ modification du calendrier quand une date est passée ie edition sans duplication, supprimer la date....am
+- [x] mise en commentaire du picto d'envoi groupé
+- [ ] annulation de l'atelier qui a été reservé
 
-############################# AUTRE ##################################################################################################
+############################# AUTRE #######################################################################################
 
 - [ ]! bug affichage bouton pour effacer les images dans worshop_edit <ul class="portion-ul"> ligne 1575
 - [ ]
@@ -76,9 +80,12 @@
 - [X] refaire la liste des ateliers bouton à la place du nombre de participants, remplacer le bouton de liste des participant par le bouton d'ajout de participant
 - [P] les images n'apparaissent pas quand elles sont importées  >>>>>
 
-############################# NOTES #######################################################################################
 
+############################# NOTES #######################################################################################
+https://www.java.com/fr/download/help/firefox_java.xml
 KPI
 - nombre de visiteur
 - taux de retour
 - temps passé
+
+####################################################################################################################
